@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Project-Tutorial-FullStack/static/css/main.d85e5bb8.css",
+    "main.js": "/React-Project-Tutorial-FullStack/static/js/main.2f848ece.js",
+    "index.html": "/React-Project-Tutorial-FullStack/index.html",
+    "main.d85e5bb8.css.map": "/React-Project-Tutorial-FullStack/static/css/main.d85e5bb8.css.map",
+    "main.2f848ece.js.map": "/React-Project-Tutorial-FullStack/static/js/main.2f848ece.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d85e5bb8.css",
+    "static/js/main.2f848ece.js"
+  ]
+}
