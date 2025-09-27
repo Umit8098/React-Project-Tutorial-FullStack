@@ -3,11 +3,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://umit8098.github.io/React-Project-Language-Cards/">
+    <a href="https://umit8098.github.io/React-Project-Tutorial-FullStack/">
       Demo
     </a>
      | 
-    <a href="https://umit8098.github.io/React-Project-Language-Cards/">
+    <a href="https://umit8098.github.io/React-Project-Tutorial-FullStack/">
       Project
     </a>
   </h3>
@@ -33,7 +33,7 @@
 Language Cards is a simple React application that displays programming languages as interactive cards.  
 Each card contains a language’s **name**, **logo**, and a short **description**.
 
-![Project gif](Language-Card.gif)
+![tutorial gif](tutorial.gif)
 
 ---
 
@@ -73,22 +73,13 @@ SOLUTION
 │     └── index.html
 │  
 ├── src
-│    ├── assets
 │    ├── components
-│    │       ├── cards
-│    │       │     ├── Card.css
-│    │       │     └── Card.js
-│    │       │
-│    │       ├── header
-│    │       │     ├── Header.css
-│    │       │     └── Header.js
-│    │       │
-│    │       └── item
-│    │             ├── Item.css
-│    │             └── Item.js       
+│    │       ├── AddTutorial.jsx
+│    │       ├── EditTutorial.jsx
+│    │       └── TutorialList.jsx 
 │    │            
-│    ├── helpers
-│    │       └── data.js
+│    ├── pages
+│    │       └── Home.jsx
 │    │
 │    ├── App.js
 │    ├── App.scss
