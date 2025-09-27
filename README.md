@@ -19,6 +19,7 @@
 - [Overview](#overview)
 - [Description](#description)
 - [Features](#features)
+- [API](#api)
 - [Project Skeleton](#project-skeleton)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
@@ -30,8 +31,10 @@
 
 ## Overview
 
-Language Cards is a simple React application that displays programming languages as interactive cards.  
-Each card contains a language’s **name**, **logo**, and a short **description**.
+A simple CRUD (Create, Read, Update, Delete) application built with **React** and **Axios**.
+Users can add, edit, delete and list tutorials.
+
+Built with **React (Frontend)** + **Django REST Framework (Backend API on PythonAnywhere)**.
 
 ![tutorial gif](tutorial.gif)
 
@@ -39,33 +42,44 @@ Each card contains a language’s **name**, **logo**, and a short **description*
 
 ## Description
 
-Language Cards is a React-based application that displays different programming languages in an elegant card layout.  
-Each card contains the language’s **name**, **logo**, and a short **description**.  
-
-This project was built to practice and demonstrate React fundamentals such as:  
-- Creating and using reusable components  
-- Passing props between components  
-- Mapping through arrays of data  
-- Basic styling with CSS/SCSS  
-
-It’s a simple yet effective project for learning and showcasing React basics.  
+This project is a basic CRUD application where users can manage tutorials.  
+It demonstrates how to integrate React with a REST API using `axios` for data fetching and modification.  
+The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).  
 
 ---
 
 ## Features
+- 📌 List all tutorials from API  
+- ➕ Add a new tutorial  
+- ✏️ Edit an existing tutorial (update task and description)  
+- ❌ Delete a tutorial  
+- 🔄 Real-time refresh after each operation (without page reload)  
+- 🖼️ Modal-based edit form  
+  
+---
 
-- 📚 Displays programming languages as cards  
-- 🎨 Stylish and responsive layout  
-- ⚛️ Built with React components and props  
-- 🔄 Data-driven design (cards generated from `data.js`)  
-- 🧩 Easy-to-understand project structure  
+## API
+
+The project communicates with a REST API hosted on **PythonAnywhere**.
+**Base URL:**
+
+```bash
+https://umit8101.pythonanywhere.com/todo/
+```
+
+**Endpoints:**
+
+* `GET /todo/` → Fetch all tutorials
+* `POST /todo/` → Create a new tutorial
+* `PUT /todo/:id/` → Update a tutorial
+* `DELETE /todo/:id/` → Delete a tutorial
 
 ---
 
 ## Project Skeleton
 
 ```
-Tour Places Project
+Full Stack - Tutorial App
 |
 |----readme.md   
 SOLUTION
@@ -93,28 +107,31 @@ SOLUTION
 
 ## Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-- React
+* [React](https://react.dev/)
+* [Axios](https://axios-http.com/)
+* [Bootstrap 5](https://getbootstrap.com/)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [Django REST Framework (API)](https://www.django-rest-framework.org/)
+
 
 ---
 
 ## How To Use
 
-<!-- This is an example, please update according to your application -->
-
-To clone and run this application, you'll need [Git](https://github.com/Umit8098/React-Project-Tutorial-FullStack.git)
-
+To clone and run this application, you'll need [Git](https://git-scm.com/), [Node.js](https://nodejs.org/), and a package manager (`yarn` or `npm`) installed on your computer.
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/Umit8098/React-Project-Tutorial-FullStack.git
 
+# Navigate into the project folder
+$ cd React-Project-Tutorial-FullStack
 
+# Install dependencies
 $ yarn  
-$ yarn start 
+$ yarn start
 
-$ or
-
+# or using npm
 $ npm install
 $ npm start
 ```
@@ -122,12 +139,17 @@ $ npm start
 ---
 
 ## About This Project
-- Educational Purpose
+
+* Built for educational purposes.
+* Demonstrates CRUD operations in React and REST API integration.
+* Showcases state management and form handling using React hooks.
 
 ---
 
 ## Acknowledgements
 - [Clarusway](https://clarusway.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ---
 
