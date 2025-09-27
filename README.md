@@ -111,12 +111,12 @@ SOLUTION
 
 <!-- This is an example, please update according to your application -->
 
-To clone and run this application, you'll need [Git](https://github.com/Umit8098/React-Project-Language-Cards.git)
+To clone and run this application, you'll need [Git](https://github.com/Umit8098/React-Project-Tutorial-FullStack.git)
 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/React-Project-Language-Cards.git
+$ git clone https://github.com/Umit8098/React-Project-Tutorial-FullStack.git
 
 
 $ yarn  
