@@ -1,5 +1,13 @@
 
-<h1 align="center">Full Stack - Tutorial</h1>
+<h1 align="center">
+🚀 Fullstack CRUD App <br/>
+React + Django REST Framework
+</h1>
+
+<p align="center">
+A fullstack CRUD application built with React on the frontend and Django REST Framework on the backend.
+</p>
+
 
 <div align="center">
   <h3>
@@ -20,6 +28,7 @@
 - [Description](#description)
 - [Features](#features)
 - [API](#api)
+- [Application Architecture](#application-architecture)
 - [Project Skeleton](#project-skeleton)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
@@ -31,10 +40,14 @@
 
 ## Overview
 
-A simple CRUD (Create, Read, Update, Delete) application built with **React** and **Axios**.
-Users can add, edit, delete and list tutorials.
+A fullstack CRUD application that demonstrates how a React frontend
+communicates with a Django REST Framework backend via a RESTful API.
 
-Built with **React (Frontend)** + **Django REST Framework (Backend API on PythonAnywhere)**.
+The application allows users to create, update, delete, and list tutorials
+with real-time UI updates, showcasing end-to-end data flow from frontend to backend.
+
+**Tech Stack:** React + Axios (Frontend) · Django REST Framework (Backend)  
+**Backend Hosting:** PythonAnywhere
 
 ![tutorial gif](tutorial.gif)
 
@@ -49,12 +62,12 @@ The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).
 ---
 
 ## Features
-- 📌 List all tutorials from API  
-- ➕ Add a new tutorial  
-- ✏️ Edit an existing tutorial (update task and description)  
-- ❌ Delete a tutorial  
-- 🔄 Real-time refresh after each operation (without page reload)  
-- 🖼️ Modal-based edit form  
+- 📌 Fetch tutorials from REST API
+- ➕ Create new tutorials via POST requests
+- ✏️ Update existing tutorials using PUT requests
+- ❌ Delete tutorials with DELETE requests
+- 🔄 Real-time UI updates without page reload
+- 🖼️ Modal-based edit form for better UX
   
 ---
 
@@ -62,6 +75,9 @@ The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).
 
 The project communicates with a REST API hosted on **PythonAnywhere**.
 **Base URL:**
+
+The backend is built with **Django REST Framework** and exposes a RESTful API
+consumed by the React frontend using Axios.
 
 ```bash
 https://umit8101.pythonanywhere.com/todo/
@@ -73,6 +89,18 @@ https://umit8101.pythonanywhere.com/todo/
 * `POST /todo/` → Create a new tutorial
 * `PUT /todo/:id/` → Update a tutorial
 * `DELETE /todo/:id/` → Delete a tutorial
+
+---
+
+## Application Architecture
+
+- React handles the user interface and state management
+- Axios is used for HTTP communication
+- Django REST Framework provides the RESTful API
+- PythonAnywhere hosts the backend service
+
+**Data Flow:**
+React UI → Axios → Django REST API → Database → Response → UI Update
 
 ---
 
@@ -140,9 +168,11 @@ $ npm start
 
 ## About This Project
 
-* Built for educational purposes.
-* Demonstrates CRUD operations in React and REST API integration.
-* Showcases state management and form handling using React hooks.
+This project focuses on demonstrating a complete frontend-to-backend workflow
+using modern React practices and a RESTful backend built with Django.
+
+It highlights API integration, state updates, and clean component structure
+in a real-world fullstack scenario.
 
 ---
 
