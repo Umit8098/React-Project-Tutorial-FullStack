@@ -1,4 +1,11 @@
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Backend-Django%20REST-success?logo=django" />
+  <img src="https://img.shields.io/badge/API-RESTful-orange" />
+  <img src="https://img.shields.io/badge/Deployment-PythonAnywhere-purple" />
+</p>
+
 <h1 align="center">
 🚀 Fullstack CRUD App <br/>
 React + Django REST Framework
@@ -21,9 +28,8 @@ A fullstack CRUD application built with React on the frontend and Django REST Fr
   </h3>
 </div>
 
-## Table of Contents
+## Navigation
 
-- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Description](#description)
 - [Features](#features)
