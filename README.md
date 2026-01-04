@@ -12,7 +12,7 @@ React + Django REST Framework
 </h1>
 
 <p align="center">
-A fullstack CRUD application built with React on the frontend and Django REST Framework on the backend.
+End-to-end CRUD application showcasing real-world React ↔ Django REST API integration.
 </p>
 
 
