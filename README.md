@@ -19,11 +19,11 @@ End-to-end CRUD application showcasing real-world React ↔ Django REST API inte
 <div align="center">
   <h3>
     <a href="https://umit8098.github.io/React-Project-Tutorial-FullStack/">
-      Demo
+      🖥️ Live Demo
     </a>
      | 
-    <a href="https://umit8098.github.io/React-Project-Tutorial-FullStack/">
-      Project
+    <a href="https://github.com/Umit8098/React-Project-Tutorial-FullStack.git">
+      📂 Repository
     </a>
   </h3>
 </div>
@@ -42,7 +42,6 @@ End-to-end CRUD application showcasing real-world React ↔ Django REST API inte
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
----
 
 ## Overview
 
@@ -57,7 +56,6 @@ with real-time UI updates, showcasing end-to-end data flow from frontend to back
 
 ![tutorial gif](tutorial.gif)
 
----
 
 ## Description
 
@@ -65,7 +63,6 @@ This project is a basic CRUD application where users can manage tutorials.
 It demonstrates how to integrate React with a REST API using `axios` for data fetching and modification.  
 The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).  
 
----
 
 ## Features
 - 📌 Fetch tutorials from REST API
@@ -75,7 +72,6 @@ The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).
 - 🔄 Real-time UI updates without page reload
 - 🖼️ Modal-based edit form for better UX
   
----
 
 ## API
 
@@ -96,7 +92,6 @@ https://umit8101.pythonanywhere.com/todo/
 * `PUT /todo/:id/` → Update a tutorial
 * `DELETE /todo/:id/` → Delete a tutorial
 
----
 
 ## Application Architecture
 
@@ -108,7 +103,6 @@ https://umit8101.pythonanywhere.com/todo/
 **Data Flow:**
 React UI → Axios → Django REST API → Database → Response → UI Update
 
----
 
 ## Project Skeleton
 
@@ -137,7 +131,6 @@ SOLUTION
 └── yarn.lock
 ```
 
----
 
 ## Built With
 
@@ -148,7 +141,6 @@ SOLUTION
 * [Django REST Framework (API)](https://www.django-rest-framework.org/)
 
 
----
 
 ## How To Use
 
@@ -170,7 +162,6 @@ $ npm install
 $ npm start
 ```
 
----
 
 ## About This Project
 
@@ -180,14 +171,12 @@ using modern React practices and a RESTful backend built with Django.
 It highlights API integration, state updates, and clean component structure
 in a real-world fullstack scenario.
 
----
 
 ## Acknowledgements
 - [Clarusway](https://clarusway.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Bootstrap](https://getbootstrap.com/)
 
----
 
 ## Contact
 
