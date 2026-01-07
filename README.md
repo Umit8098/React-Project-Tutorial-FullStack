@@ -30,22 +30,22 @@ End-to-end CRUD application showcasing real-world React ↔ Django REST API inte
 
 ![tutorial gif](tutorial.gif)
 
-## Navigation
+## 📚 Navigation
 
-- [Overview](#overview)
-- [Description](#description)
-- [Features](#features)
-- [API](#api)
-- [Application Architecture](#application-architecture)
-- [Project Skeleton](#project-skeleton)
-- [Built With](#built-with)
-- [How To Use](#how-to-use)
-- [About This Project](#about-this-project)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
+- [✨ Overview](#overview)
+- [📖 Description](#description)
+- [🚀 Features](#features)
+- [🗂️ API](#api)
+- [🗂️ Application Architecture](#application-architecture)
+- [🗂️ Project Skeleton](#project-skeleton)
+- [🛠️ Built With](#built-with)
+- [⚡ How To Use](#how-to-use)
+- [📌 About This Project](#about-this-project)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📬 Contact](#contact)
 
 
-## Overview
+## ✨ Overview
 
 A fullstack CRUD application that demonstrates how a React frontend
 communicates with a Django REST Framework backend via a RESTful API.
@@ -57,14 +57,14 @@ with real-time UI updates, showcasing end-to-end data flow from frontend to back
 **Backend Hosting:** PythonAnywhere
 
 
-## Description
+## 📖 Description
 
 This project is a basic CRUD application where users can manage tutorials.  
 It demonstrates how to integrate React with a REST API using `axios` for data fetching and modification.  
 The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).  
 
 
-## Features
+## 🚀 Features
 - 📌 Fetch tutorials from REST API
 - ➕ Create new tutorials via POST requests
 - ✏️ Update existing tutorials using PUT requests
@@ -73,7 +73,7 @@ The backend is hosted on [PythonAnywhere](https://www.pythonanywhere.com/).
 - 🖼️ Modal-based edit form for better UX
   
 
-## API
+## 🗂️ API
 
 The project communicates with a REST API hosted on **PythonAnywhere**.
 **Base URL:**
@@ -93,7 +93,7 @@ https://umit8101.pythonanywhere.com/todo/
 * `DELETE /todo/:id/` → Delete a tutorial
 
 
-## Application Architecture
+## 🗂️ Application Architecture
 
 - React handles the user interface and state management
 - Axios is used for HTTP communication
@@ -104,7 +104,7 @@ https://umit8101.pythonanywhere.com/todo/
 React UI → Axios → Django REST API → Database → Response → UI Update
 
 
-## Project Skeleton
+## 🗂️ Project Skeleton
 
 ```
 Full Stack - Tutorial App
@@ -132,7 +132,7 @@ SOLUTION
 ```
 
 
-## Built With
+## 🛠️ Built With
 
 * [React](https://react.dev/)
 * [Axios](https://axios-http.com/)
@@ -142,7 +142,7 @@ SOLUTION
 
 
 
-## How To Use
+## ⚡ How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com/), [Node.js](https://nodejs.org/), and a package manager (`yarn` or `npm`) installed on your computer.
 
@@ -163,7 +163,7 @@ $ npm start
 ```
 
 
-## About This Project
+## 📌 About This Project
 
 This project focuses on demonstrating a complete frontend-to-backend workflow
 using modern React practices and a RESTful backend built with Django.
@@ -172,13 +172,13 @@ It highlights API integration, state updates, and clean component structure
 in a real-world fullstack scenario.
 
 
-## Acknowledgements
+## 🙏 Acknowledgements
 - [Clarusway](https://clarusway.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Bootstrap](https://getbootstrap.com/)
 
 
-## Contact
+## 📬 Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
 - GitHub [@Umit8098](https://github.com/Umit8098)
