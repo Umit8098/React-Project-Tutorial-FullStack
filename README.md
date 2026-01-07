@@ -28,6 +28,8 @@ End-to-end CRUD application showcasing real-world React ↔ Django REST API inte
   </h3>
 </div>
 
+![tutorial gif](tutorial.gif)
+
 ## Navigation
 
 - [Overview](#overview)
@@ -53,8 +55,6 @@ with real-time UI updates, showcasing end-to-end data flow from frontend to back
 
 **Tech Stack:** React + Axios (Frontend) · Django REST Framework (Backend)  
 **Backend Hosting:** PythonAnywhere
-
-![tutorial gif](tutorial.gif)
 
 
 ## Description
